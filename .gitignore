@@ -1,2 +1,2 @@
-/lib/*.css.map
-/assets/css/*.css.map
+*/*.css.map
+assets/css/*.css.map
