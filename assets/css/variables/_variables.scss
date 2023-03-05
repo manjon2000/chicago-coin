@@ -1,0 +1,33 @@
+:root {
+  --border-gradient: linear-gradient(90deg, #6096FD 0%, #FA798D 107.58%);
+    --circle: 50%;
+    //Font
+    --font-text: 'Rubik', sans-serif;
+    --font-heading: 'Abel', sans-serif;
+}
+
+/**
+  * Colors
+*/
+
+.text-primary {
+  color: #FF0000 !important;  
+}
+.text-secundary {
+  color: #ececee81;
+}
+
+/* Button */
+
+.btn-gradient {
+  --bs-btn-color: #fff;
+  background-image: var(--border-gradient);
+}
+
+/* Border Radius */
+
+.rounded-cta {
+  --bs-btn-border-width: 0;
+  --bs-border-radius: 30px;
+  border-radius: var(--bs-border-radius) !important 
+}

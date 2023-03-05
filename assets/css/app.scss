@@ -1,0 +1,30 @@
+@import './variables/variables', './components/navbar', './components/header', './components/services';
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 100vh;
+    background-color: #050412;
+}
+h1,h2,h3,h4,h5,h6,a,.text-heading {
+    font-weight: 400;
+    font-family: var(--font-heading);
+}
+
+p,span,small,button,.ff-text{
+    font-family: var(--font-text) !important;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
