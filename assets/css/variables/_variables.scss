@@ -1,4 +1,6 @@
 :root {
+  --text-blue: #405680;
+  --bg-primary: #050412;
   --border-gradient: linear-gradient(90deg, #6096FD 0%, #FA798D 107.58%);
     --circle: 50%;
     //Font
@@ -15,6 +17,9 @@
 }
 .text-secundary {
   color: #ececee81;
+}
+.text-blue {
+  color: var(--text-blue);
 }
 
 /* Button */
